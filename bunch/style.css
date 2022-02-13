@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 16px;
+}
+.navbar{
+    padding:2rem;
+    box-shadow: 1px 1px 4px lightgrey;
+}
+.nav-btn-box{
+    margin-left: 76%;
+}
+.nav-btn{
+    background-color: #2945FF;
+    padding: 1rem 2rem;
+    border:none;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 1px 2px 10px #2945FF;
+    font-size: 18px;
+    font-weight: bolder;
+    transition: 0.3s;
+}
+.nav-btn:hover{
+    background-color: transparent !important;
+    color:#2945FF;
+    border:2px solid #2945FF ;
+    transform: translateY(5px);
+
+}
+.on-off-img{
+    cursor: pointer;
+    display: block;
+    transform: translate(0px);
+    transition: 1.1s all;
+    border-radius: 5px;
+}
+.on-off-img:hover{
+    transform: translateY(20px) ;
+     box-shadow: 6px 6px 40px 10px lightgrey;
+}
+.payments-img{
+    cursor: pointer;
+    display: block;
+}
+.left-banner{
+    padding-top: 30px ;
+    margin-top: 25px;
+}
+.left-banner-heading{
+    font-weight: bolder;
+}
+.left-banner-text{
+    margin-top: 20px;
+}
+.btn-banner{
+    background-color:#1F1927;
+    padding:10px 35px;
+    font-size: 16px !important;
+    color: #fff;
+    margin-top: 10px !important;
+    box-shadow:   0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transition: 0.3s;
+}
+.btn-banner:hover{
+    color:#fff !important;
+    box-shadow:  0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #000;
+    transform: translateY(5px);
+}
+.right-banner{
+    padding-top: 0px !important;
+}
+.Checkout{
+    margin-left: 250px !important;
+}   
+.paired{
+    position: absolute;
+    top: 9rem;
+    left: 4.5rem;
+    display: block;
+}
+.payment-btn{
+     background-color: #2945FF;
+     color: #fff;
+     border: none;
+     padding: 10px 40px;
+     border-radius: 10px;
+     box-shadow:0 0 0.5em 0 #2945FF;
+     margin-top: 30px;
+     transition: 0.3s;
+}
+.payment-btn:hover{
+    transform: translateY(5px);
+}
+.payout-box{
+    margin-top: 11rem !important;
+}
+.box-img{
+   justify-content: center;
+}
+.img-box2{
+    background-color: #ECF9FF;
+    padding: 15px ;
+    width: 85.23px;
+    height:  85.23px;
+    align-items: center !important;
+    border-radius: 10px;
+    justify-content: center;
+    box-shadow: inset 1px 1px 4px p;
+}
+.col-headin{
+    font-weight: bolder;
+}
+.powering-card{
+    border: none;
+    transform: translate(0px);
+    transition: 1.1s all;
+    box-shadow: 15px 15px 50px 10px lightgrey;
+    border-radius: 10px;
+    padding: 35px;
+    cursor: pointer;
+}
+.powering-card:hover{
+    transform: translateY(20px) ;
+     box-shadow: 6px 6px 40px 10px lightgrey;
+   
+}
+.crypto-card-title{
+    color:#060640;
+    font-weight: bolder;
+}
+.footer-jumbotron{
+    border-radius: 20px;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 0px auto;
+    background: #F5F5F5 !important;
+    box-shadow: inset 15px 15px 50px lightgrey;
+}
+.footer-container{
+    margin-top: 10rem !important;
+}
+.inner-footer-box{
+    width:60%;
+    margin-left: 13rem;
+    padding: 0.5rem 0rem 2rem 0rem;
+}
+.footer{
+    background: #F5F5F5;
+    margin-top: 6rem;
+    height: 3rem;
+}
+.footer-heading{
+    color:#2945FF;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+}
+@media screen and (max-width:768px){
+    .nav-btn{
+        background-color: #2945FF;
+        padding: 1rem 2.5rem;
+        border:none;
+        color: #fff;
+        border-radius: 5px;
+        box-shadow: 1px 2px 10px #2945FF;
+        font-size: 18px;
+        font-weight: bolder;
+    }
+    .Checkout{
+        margin-left: 0px !important;
+        margin-top: 80px !important;
+        width:100%;
+    }
+    .col-headin{
+        font-weight: bolder;
+        margin-top:-10px;
+    }
+    .payout-imagebox{
+        order:1;
+        display: none;
+    }
+    .paired{
+        position: absolute;
+        top: 10rem;
+        left: -2rem;
+        display: none;
+    }
+    .inner-footer-box{
+        width:80%;
+        margin-left:1.9rem !important;
+        padding: 0.5rem 0rem 2rem 0rem;
+        
+    }
+}
+@media screen and (max-width:360px){
+    .navbar{
+        padding:2rem 1rem;
+    }
+}
+@media screen and  (max-width:414px){
+    .nav-btn-box{
+        margin-left: 0%;
+    }
+   
+    .nav-btn{
+        border:2px solid #2945FF;
+        background-color: none;
+        color:#fff !important;
+        font-size:1rem;
+        padding: 1rem 2.5rem;
+        box-shadow: 1px 1px 4px #2945FF;
+    }
+    .nav-btn:hover{
+        background-color:none;
+        color: #fff !important ;
+        color:#2945FF !important;
+    }
+    
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-size: 18px;
+    }
+    .payout-imagebox{
+        margin-left: 0rem !important;
+        margin-top: -20px;
+        padding: 0rem !important;
+    }
+    .payout-img{
+        margin-left: 0rem !important;
+        width: 18rem !important;
+
+    }
+    .on-off-img{
+        width:18rem;
+    }
+    .right-banner{
+        padding-left:0rem;
+        align-items: center;
+        justify-content: center;
+        display: none;
+        text-align: center;
+        padding-top: -5px !important;
+    }
+    .paired{
+        display:none;
+    }
+    .Checkout{
+        margin-left: 0px !important;
+    }
+    .payout-imagebox{
+        margin-left: 0rem !important;
+        order: 1;
+    }
+    .powering-card{
+       margin: 15px auto;
+    }
+    .payout{
+        order:2
+    }
+    .footer-container{
+        margin-top: 5rem !important;
+    }
+    .inner-footer-box{
+        width:80%;
+        margin-left:2rem !important;
+        padding: 0.5rem 0rem 2rem 0rem;
+        
+    }
+    .footer{
+        background: #F5F5F5;
+        margin-top: 4rem;
+        height: 0rem;
+    }
+    .footer-heading{
+        color:#2945FF;
+        font-family: Poppins;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+    }
+    
+}
+
+
